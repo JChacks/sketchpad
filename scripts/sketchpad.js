@@ -46,7 +46,7 @@ function Sketchpad(config) {
   this._width = config.width || this.element.attr('data-width') || 0;
   this._height = config.height || this.element.attr('data-height') || 0;
 
-  this._bgColor = config.bgColor || this.element.attr('data-height') || '#ffffff';
+  this._bgColor = config.bgColor || this.element.attr('data-bgcolor') || '#ffffff';
 
   // Pen attributes
   this.color = config.color || this.element.attr('data-color') || '#000000';
